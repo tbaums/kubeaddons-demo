@@ -1,10 +1,10 @@
 apiVersion: kubeaddons.mesosphere.io/v1beta1
 kind: Addon
 metadata:
-  name: helloworld
+  name: custom-5g-app
   namespace: kubeaddons
   labels:
-    kubeaddons.mesosphere.io/name: helloworld
+    kubeaddons.mesosphere.io/name: custom-5g-app
   annotations:
     catalog.kubeaddons.mesosphere.io/addon-revision: "1.0.0-1"
 spec:
